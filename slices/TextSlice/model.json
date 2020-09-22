@@ -1,0 +1,17 @@
+{
+  "type": "Slice",
+  "fieldset": "Text Section",
+  "description": "Simple text section with either one or two columns",
+  "icon": "text_fields",
+  "non-repeat": {
+    "rich_text": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "Rich Text",
+        "placeholder": "Text..."
+      }
+    }
+  },
+  "repeat": {}
+}

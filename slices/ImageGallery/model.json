@@ -1,0 +1,61 @@
+{
+  "type": "Slice",
+  "fieldset": "Image Gallery",
+  "description": "A collection of images, each with a description and an optional link",
+  "icon": "image",
+  "non-repeat": {
+    "gallery_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading2, heading3",
+        "label": "Gallery Title",
+        "placeholder": "Image Gallery Title...",
+        "isEverythingAuthorized": false,
+        "authorized": ["heading2", "heading3", "text"],
+        "isAuthorized": {}
+      }
+    }
+  },
+  "repeat": {
+    "image_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Image Description",
+        "placeholder": "Image description...",
+        "isEverythingAuthorized": false,
+        "authorized": ["paragraph", "text"],
+        "isAuthorized": {}
+      }
+    },
+    "link": {
+      "type": "Link",
+      "config": {
+        "label": "Link",
+        "placeholder": "Optional Link"
+      }
+    },
+    "link_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Link Label",
+        "placeholder": "Optional Link Label",
+        "isEverythingAuthorized": false,
+        "authorized": ["paragraph", "text"],
+        "isAuthorized": {}
+      }
+    },
+    "image": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 727,
+          "height": 402
+        },
+        "thumbnails": [],
+        "label": "Image"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "Slice",
+  "fieldset": "Full Width Image",
+  "description": "A wide, thin image",
+  "icon": "broken_image",
+  "non-repeat": {
+    "image": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 980,
+          "height": 300
+        },
+        "thumbnails": [],
+        "label": "Image"
+      }
+    }
+  },
+  "repeat": {}
+}

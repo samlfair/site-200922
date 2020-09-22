@@ -1,0 +1,51 @@
+{
+  "type": "Slice",
+  "fieldset": "Image Highlight",
+  "description": "A section to highlight an image with title, text, and optional link",
+  "icon": "star",
+  "non-repeat": {
+    "featured_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 727,
+          "height": 402
+        },
+        "thumbnails": [],
+        "label": "Featured Image"
+      }
+    },
+    "title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading2",
+        "label": "Image Title",
+        "placeholder": "Featured Title..."
+      }
+    },
+    "headline": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading3",
+        "label": "Image Headline",
+        "placeholder": "Featured Headline..."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "config": {
+        "label": "Featured Link",
+        "placeholder": "Optional Link"
+      }
+    },
+    "link_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Featured Link Label",
+        "placeholder": "Optional Link Label"
+      }
+    }
+  },
+  "repeat": {}
+}

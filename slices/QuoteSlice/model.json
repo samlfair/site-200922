@@ -1,0 +1,16 @@
+{
+  "type": "Slice",
+  "fieldset": "Quote",
+  "description": "A stylized quote",
+  "icon": "format_quote",
+  "non-repeat": {
+    "quote_text": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Quote Text"
+      }
+    }
+  },
+  "repeat": {}
+}
